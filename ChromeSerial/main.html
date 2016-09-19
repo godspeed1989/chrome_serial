@@ -1,0 +1,46 @@
+<html>
+<head>
+  <script src="serial.js"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="container">
+      <div id="menu">
+        <label>
+          Port:
+          <select id="port-picker"></select>
+        </label>
+        <label>
+          Baud:
+          <select id="baud-picker">
+            <option value="9600">9600</option>
+            <option value="115200">115200</option>
+          </select>
+        </label>
+        <label>
+          Open:
+          <input id="open-input" type="submit" value="Open"/>
+        </label>    
+        <label>
+          Close:
+          <input id="close-input" type="submit" value="Close"/>
+        </label>
+        <label>
+          Status:
+          <span id="status">Loading</span>
+        </label>
+      </div>
+      <div id="content">
+        <label>
+          Send:
+          <textarea id="txtSend" rows="8">Hello</textarea>
+          <input id="send-input" type="submit" value="Send"/>
+        </label>
+        <label>
+          Recv:
+          <textarea id="txtRecv" rows="8" readonly="readonly"></textarea>
+        </label>
+      </div>
+    </div>
+</body>
+</html>

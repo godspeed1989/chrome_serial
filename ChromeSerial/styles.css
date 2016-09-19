@@ -1,0 +1,35 @@
+body {
+    background-color:#d0e4fe;
+}
+
+label {
+    display: block;
+    padding: 20px;
+    border: solid 3px #ddd;
+    color: #999;
+}
+
+#container {
+    float:left;
+}
+
+#port-picker,
+#baud-picker,
+#status {
+    color: #000;
+}
+
+#port-picker,
+#baud-picker {
+    max-width: 250px;
+    margin-right: 10px;
+}
+
+#menu {
+    float:left;
+}
+
+#content {
+    float:left;
+}
+
